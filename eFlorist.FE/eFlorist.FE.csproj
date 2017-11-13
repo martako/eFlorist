@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB815A3C-064A-4C84-9E00-76F899F1E810}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eFlorist.FE</RootNamespace>
+    <AssemblyName>eFlorist.FE</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".angular-cli.json" />
+    <None Include=".editorconfig" />
+    <None Include=".stylelintrc.json" />
+    <None Include=".travis.yml" />
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\settings.json" />
+    <None Include="CHANGELOG.md" />
+    <None Include="e2e\tsconfig.e2e.json" />
+    <None Include="LICENSE" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\app\%40core\data\.gitkeep" />
+    <None Include="src\app\%40core\data\README.md" />
+    <None Include="src\app\%40core\utils\.gitkeep" />
+    <None Include="src\app\%40theme\components\footer\footer.component.scss" />
+    <None Include="src\app\%40theme\components\header\header.component.scss" />
+    <None Include="src\app\%40theme\components\search-input\search-input.component.scss" />
+    <None Include="src\app\%40theme\components\theme-settings\theme-settings.component.scss" />
+    <None Include="src\app\%40theme\components\theme-switcher\theme-switcher.component.scss" />
+    <None Include="src\app\%40theme\directives\.gitkeep" />
+    <None Include="src\app\%40theme\layouts\one-column\one-column.layout.scss" />
+    <None Include="src\app\%40theme\layouts\sample\sample.layout.scss" />
+    <None Include="src\app\%40theme\layouts\three-columns\three-columns.layout.scss" />
+    <None Include="src\app\%40theme\layouts\two-columns\two-columns.layout.scss" />
+    <None Include="src\app\%40theme\pipes\.gitkeep" />
+    <None Include="src\app\%40theme\styles\pace.theme.scss" />
+    <None Include="src\app\%40theme\styles\styles.scss" />
+    <None Include="src\app\%40theme\styles\themes.scss" />
+    <None Include="src\app\pages\charts\chartjs\chartjs.component.scss" />
+    <None Include="src\app\pages\charts\d3\d3.component.scss" />
+    <None Include="src\app\pages\charts\echarts\echarts.component.scss" />
+    <None Include="src\app\pages\components\notifications\notifications.component.scss" />
+    <None Include="src\app\pages\dashboard\contacts\contacts.component.scss" />
+    <None Include="src\app\pages\dashboard\dashboard.component.scss" />
+    <None Include="src\app\pages\dashboard\electricity\electricity-chart\electricity-chart.component.scss" />
+    <None Include="src\app\pages\dashboard\electricity\electricity.component.scss" />
+    <None Include="src\app\pages\dashboard\kitten\kitten.component.scss" />
+    <None Include="src\app\pages\dashboard\rooms\player\player.component.scss" />
+    <None Include="src\app\pages\dashboard\rooms\room-selector\room-selector.component.scss" />
+    <None Include="src\app\pages\dashboard\rooms\rooms.component.scss" />
+    <None Include="src\app\pages\dashboard\security-cameras\security-cameras.component.scss" />
+    <None Include="src\app\pages\dashboard\solar\solar.component.scss" />
+    <None Include="src\app\pages\dashboard\status-card\status-card.component.scss" />
+    <None Include="src\app\pages\dashboard\team\team.component.scss" />
+    <None Include="src\app\pages\dashboard\temperature\temperature-dragger\temperature-dragger.component.scss" />
+    <None Include="src\app\pages\dashboard\temperature\temperature.component.scss" />
+    <None Include="src\app\pages\dashboard\traffic\traffic.component.scss" />
+    <None Include="src\app\pages\dashboard\weather\weather.component.scss" />
+    <None Include="src\app\pages\forms\form-inputs\form-inputs.component.scss" />
+    <None Include="src\app\pages\forms\form-layouts\form-layouts.component.scss" />
+    <None Include="src\app\pages\maps\bubble\bubble-map.component.scss" />
+    <None Include="src\app\pages\maps\gmaps\gmaps.component.scss" />
+    <None Include="src\app\pages\maps\leaflet\leaflet.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\action-groups\action-groups.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\button-groups\button-groups.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\buttons.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\default-buttons\default-buttons.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\dropdown-buttons\dropdown-button.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\hero-buttons\hero-buttons.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\icon-buttons\icon-buttons.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\labeled-actions-group\labeled-actions-group.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\shape-buttons\shape-buttons.component.scss" />
+    <None Include="src\app\pages\ui-features\buttons\size-buttons\size-buttons.component.scss" />
+    <None Include="src\app\pages\ui-features\grid\grid.component.scss" />
+    <None Include="src\app\pages\ui-features\icons\icons.component.scss" />
+    <None Include="src\app\pages\ui-features\modals\modals.component.scss" />
+    <None Include="src\app\pages\ui-features\tabs\tabs.component.scss" />
+    <None Include="src\app\pages\ui-features\typography\typography.component.scss" />
+    <None Include="src\assets\.gitkeep" />
+    <None Include="src\assets\skins\lightgray\fonts\tinymce-small.eot" />
+    <None Include="src\assets\skins\lightgray\fonts\tinymce-small.ttf" />
+    <None Include="src\assets\skins\lightgray\fonts\tinymce-small.woff" />
+    <None Include="src\assets\skins\lightgray\fonts\tinymce.eot" />
+    <None Include="src\assets\skins\lightgray\fonts\tinymce.ttf" />
+    <None Include="src\assets\skins\lightgray\fonts\tinymce.woff" />
+    <None Include="src\tsconfig.app.json" />
+    <None Include="src\tsconfig.spec.json" />
+    <None Include="tsconfig.json" />
+    <None Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="karma.conf.js" />
+    <Content Include="protractor.conf.js" />
+    <Content Include="src\app\%40theme\components\header\header.component.html" />
+    <Content Include="src\app\pages\charts\chartjs\chartjs.component.html" />
+    <Content Include="src\app\pages\charts\d3\d3.component.html" />
+    <Content Include="src\app\pages\charts\echarts\echarts.component.html" />
+    <Content Include="src\app\pages\components\notifications\notifications.component.html" />
+    <Content Include="src\app\pages\components\tree\tree.component.html" />
+    <Content Include="src\app\pages\dashboard\contacts\contacts.component.html" />
+    <Content Include="src\app\pages\dashboard\dashboard.component.html" />
+    <Content Include="src\app\pages\dashboard\electricity\electricity.component.html" />
+    <Content Include="src\app\pages\dashboard\kitten\kitten.component.html" />
+    <Content Include="src\app\pages\dashboard\rooms\player\player.component.html" />
+    <Content Include="src\app\pages\dashboard\rooms\room-selector\room-selector.component.html" />
+    <Content Include="src\app\pages\dashboard\security-cameras\security-cameras.component.html" />
+    <Content Include="src\app\pages\dashboard\team\team.component.html" />
+    <Content Include="src\app\pages\dashboard\temperature\temperature-dragger\temperature-dragger.component.html" />
+    <Content Include="src\app\pages\dashboard\temperature\temperature.component.html" />
+    <Content Include="src\app\pages\dashboard\weather\weather.component.html" />
+    <Content Include="src\app\pages\forms\form-inputs\form-inputs.component.html" />
+    <Content Include="src\app\pages\forms\form-layouts\form-layouts.component.html" />
+    <Content Include="src\app\pages\tables\smart-table\smart-table.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\action-groups\action-groups.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\block-level-buttons\block-level-buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\button-groups\button-groups.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\default-buttons\default-buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\dropdown-buttons\dropdown-button.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\hero-buttons\hero-buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\icon-buttons\icon-buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\labeled-actions-group\labeled-actions-group.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\shape-buttons\shape-buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\buttons\size-buttons\size-buttons.component.html" />
+    <Content Include="src\app\pages\ui-features\grid\grid.component.html" />
+    <Content Include="src\app\pages\ui-features\icons\icons.component.html" />
+    <Content Include="src\app\pages\ui-features\modals\modals.component.html" />
+    <Content Include="src\app\pages\ui-features\modals\modal\modal.component.html" />
+    <Content Include="src\app\pages\ui-features\search-fields\search-fields.component.html" />
+    <Content Include="src\app\pages\ui-features\tabs\tabs.component.html" />
+    <Content Include="src\app\pages\ui-features\typography\typography.component.html" />
+    <Content Include="src\assets\images\alan.png" />
+    <Content Include="src\assets\images\camera1.jpg" />
+    <Content Include="src\assets\images\camera2.jpg" />
+    <Content Include="src\assets\images\camera3.jpg" />
+    <Content Include="src\assets\images\camera4.jpg" />
+    <Content Include="src\assets\images\cover1.jpg" />
+    <Content Include="src\assets\images\cover2.jpg" />
+    <Content Include="src\assets\images\cover3.jpg" />
+    <Content Include="src\assets\images\eva.png" />
+    <Content Include="src\assets\images\jack.png" />
+    <Content Include="src\assets\images\kate.png" />
+    <Content Include="src\assets\images\kitten-cosmic.png" />
+    <Content Include="src\assets\images\kitten-default.png" />
+    <Content Include="src\assets\images\lee.png" />
+    <Content Include="src\assets\images\nick.png" />
+    <Content Include="src\assets\images\square_pattern.svg" />
+    <Content Include="src\assets\images\square_pattern_cosmic.svg" />
+    <Content Include="src\assets\images\team.png" />
+    <Content Include="src\assets\skins\lightgray\content.inline.min.css" />
+    <Content Include="src\assets\skins\lightgray\content.min.css" />
+    <Content Include="src\assets\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="src\assets\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="src\assets\skins\lightgray\img\anchor.gif" />
+    <Content Include="src\assets\skins\lightgray\img\loader.gif" />
+    <Content Include="src\assets\skins\lightgray\img\object.gif" />
+    <Content Include="src\assets\skins\lightgray\img\trans.gif" />
+    <Content Include="src\assets\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="src\assets\skins\lightgray\skin.min.css" />
+    <Content Include="src\assets\vendors\echarts.min.js" />
+    <Content Include="src\assets\vendors\echarts.world.min.js" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\favicon.png" />
+    <Content Include="src\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\%40core\core.module.ts" />
+    <TypeScriptCompile Include="src\app\%40core\data\data.module.ts" />
+    <TypeScriptCompile Include="src\app\%40core\data\electricity.service.ts" />
+    <TypeScriptCompile Include="src\app\%40core\data\player.service.ts" />
+    <TypeScriptCompile Include="src\app\%40core\data\smart-table.service.ts" />
+    <TypeScriptCompile Include="src\app\%40core\data\state.service.ts" />
+    <TypeScriptCompile Include="src\app\%40core\data\users.service.ts" />
+    <TypeScriptCompile Include="src\app\%40core\module-import-guard.ts" />
+    <TypeScriptCompile Include="src\app\%40core\utils\analytics.service.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\footer\footer.component.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\header\header.component.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\index.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\search-input\search-input.component.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\theme-settings\theme-settings.component.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\theme-switcher\theme-switcher.component.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\components\tiny-mce\tiny-mce.component.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\layouts\index.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\layouts\one-column\one-column.layout.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\layouts\sample\sample.layout.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\layouts\three-columns\three-columns.layout.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\layouts\two-columns\two-columns.layout.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\pipes\capitalize.pipe.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\pipes\index.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\pipes\plural.pipe.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\pipes\round.pipe.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\pipes\timing.pipe.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\styles\theme.cosmic.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\styles\theme.default.ts" />
+    <TypeScriptCompile Include="src\app\%40theme\theme.module.ts" />
+    <TypeScriptCompile Include="src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs-bar-horizontal.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs-bar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs-line.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs-multiple-xaxis.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs-pie.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs-radar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\chartjs\chartjs.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\charts-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\charts.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\charts.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3-advanced-pie.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3-area-stack.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3-bar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3-line.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3-pie.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3-polar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\d3\d3.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-area-stack.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-bar-animation.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-bar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-line.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-multiple-xaxis.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-pie.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts-radar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\charts\echarts\echarts.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\components\components-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\components\components.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\components\components.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\components\notifications\notifications.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\components\tree\tree.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\contacts\contacts.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\dashboard.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\dashboard.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\electricity\electricity-chart\electricity-chart.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\electricity\electricity.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\kitten\kitten.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\rooms\player\player.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\rooms\room-selector\room-selector.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\rooms\rooms.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\security-cameras\security-cameras.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\solar\solar.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\status-card\status-card.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\team\team.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\temperature\temperature-dragger\temperature-dragger.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\temperature\temperature.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\traffic\traffic-chart.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\traffic\traffic.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\dashboard\weather\weather.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\editors\ckeditor\ckeditor.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\editors\ckeditor\ckeditor.loader.ts" />
+    <TypeScriptCompile Include="src\app\pages\editors\editors-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\editors\editors.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\editors\editors.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\editors\tiny-mce\tiny-mce.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\forms\form-inputs\form-inputs.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\forms\form-layouts\form-layouts.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\forms\forms-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\forms\forms.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\forms\forms.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\maps\bubble\bubble-map.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\maps\gmaps\gmaps.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\maps\leaflet\leaflet.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\maps\maps-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\maps\maps.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\maps\maps.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\pages-menu.ts" />
+    <TypeScriptCompile Include="src\app\pages\pages-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\pages.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\pages.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\tables\smart-table\smart-table.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\tables\tables-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\tables\tables.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\tables\tables.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\action-groups\action-groups.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\block-level-buttons\block-level-buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\button-groups\button-groups.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\buttons.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\default-buttons\default-buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\dropdown-buttons\dropdown-button.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\hero-buttons\hero-buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\icon-buttons\icon-buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\labeled-actions-group\labeled-actions-group.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\shape-buttons\shape-buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\buttons\size-buttons\size-buttons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\grid\grid.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\icons\icons.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\modals\modals.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\modals\modal\modal.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\search-fields\search-fields.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\tabs\tabs.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\typography\typography.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\ui-features-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\ui-features.component.ts" />
+    <TypeScriptCompile Include="src\app\pages\ui-features\ui-features.module.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+    <TypeScriptCompile Include="src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

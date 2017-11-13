@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFlorist.API", "eFlorist.API\eFlorist.API.csproj", "{83EDB2F0-53EC-40C0-91A0-B67C01CCB7D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFlorist.FE", "eFlorist.FE\eFlorist.FE.csproj", "{DB815A3C-064A-4C84-9E00-76F899F1E810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eFlorist.Model", "eFlorist.Model\eFlorist.Model.csproj", "{BE08587C-31E8-4828-AD31-C7D66101648A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83EDB2F0-53EC-40C0-91A0-B67C01CCB7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EDB2F0-53EC-40C0-91A0-B67C01CCB7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EDB2F0-53EC-40C0-91A0-B67C01CCB7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EDB2F0-53EC-40C0-91A0-B67C01CCB7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB815A3C-064A-4C84-9E00-76F899F1E810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB815A3C-064A-4C84-9E00-76F899F1E810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB815A3C-064A-4C84-9E00-76F899F1E810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB815A3C-064A-4C84-9E00-76F899F1E810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE08587C-31E8-4828-AD31-C7D66101648A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE08587C-31E8-4828-AD31-C7D66101648A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE08587C-31E8-4828-AD31-C7D66101648A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE08587C-31E8-4828-AD31-C7D66101648A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
