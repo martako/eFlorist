@@ -13,7 +13,7 @@ $nb-themes: nb-register-theme((
   layout-content-width: 1400px,
 
   font-main: Roboto,
-  font-secondary: Exo,
+  font-secondary: Roboto,
 ), default, default);
 
 $nb-themes: nb-register-theme((
@@ -23,5 +23,5 @@ $nb-themes: nb-register-theme((
   layout-content-width: 1400px,
 
   font-main: Roboto,
-  font-secondary: Exo,
+  font-secondary: Roboto,
 ), cosmic, cosmic);
