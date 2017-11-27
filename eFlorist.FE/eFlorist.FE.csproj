@@ -116,6 +116,7 @@
     <None Include="src\app\pages\ui-features\modals\modals.component.scss" />
     <None Include="src\app\pages\ui-features\tabs\tabs.component.scss" />
     <None Include="src\app\pages\ui-features\typography\typography.component.scss" />
+    <None Include="src\app\pages\pages.component.scss" />
     <None Include="src\assets\.gitkeep" />
     <None Include="src\assets\skins\lightgray\fonts\tinymce-small.eot" />
     <None Include="src\assets\skins\lightgray\fonts\tinymce-small.ttf" />

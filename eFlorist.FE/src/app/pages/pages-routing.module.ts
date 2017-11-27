@@ -3,16 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { OrderListComponent } from './orders/orderList.component';
 
 const routes: Routes = [{
   path: '',
   component: PagesComponent,
   children: [{
-    path: 'dashboard',
+    path: 'myaccount',
     component: DashboardComponent,
   }, {
-    path: 'ui-features',
-    loadChildren: './ui-features/ui-features.module#UiFeaturesModule',
+    path: 'orderList',
+    component: OrderListComponent,
   }, {
     path: 'components',
     loadChildren: './components/components.module#ComponentsModule',
@@ -33,7 +34,7 @@ const routes: Routes = [{
     loadChildren: './tables/tables.module#TablesModule',
   }, {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'myaccount',
     pathMatch: 'full',
   }],
 }];
